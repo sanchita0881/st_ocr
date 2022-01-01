@@ -5,7 +5,7 @@ from PIL import Image   #Python Imaging Library #to open images
 import numpy as np
 
 st.title("Optical Character Recognition (OCR :")
-St.text("Upload the image :")
+st.text("Upload the image :")
 
 uploaded_file = st.sidebar.file_uploader("Choose an image :", type =["jpg","png","jpeg",]) 
 if uploaded_file is not None: #if there is some file uploaded here, then do the following

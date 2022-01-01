@@ -1,7 +1,7 @@
 import streamlit as st
 import cv2
 import pytesseract
-from PIL import image   #Python Imaging Library #to open images 
+from PIL import Image   #Python Imaging Library #to open images 
 import numpy as np
 
 st.title("Optical Character Recognition (OCR :")
